@@ -25,7 +25,7 @@ contract FlashLoan is FlashLoanSimpleReceiverBase {
     address private immutable usdcAddress =
         0xA2025B15a1757311bfD68cb14eaeFCc237AF5b43;
     address private dexContractAddress =
-        0xD6e8c479B6B62d8Ce985C0f686D39e96af9424df;
+        0xC023ae286dB9538E0D928859590BB438Bb46d6B3;
 
     IERC20 private dai;
     IERC20 private usdc;
