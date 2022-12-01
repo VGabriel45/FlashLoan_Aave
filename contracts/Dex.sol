@@ -4,16 +4,6 @@ pragma solidity 0.8.10;
 
 import {IERC20} from "@aave/core-v3/contracts/dependencies/openzeppelin/contracts/IERC20.sol";
 
-interface IDex {
-    function depositUSDC(uint256 _amount) external;
-
-    function depositDAI(uint256 _amount) external;
-
-    function buyDAI() external;
-
-    function sellDAI() external;
-}
-
 contract Dex {
     address payable public owner;
 
